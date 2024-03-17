@@ -23,7 +23,7 @@ const Signup = () => {
         <h2 className="text-2xl mb-4">Signup page </h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-gray-700">Email:</label>
+            <label className="block text-gray-700">Email : registered email.</label>
             <input
               className="form-input mt-1 block w-full"
               type="email"
