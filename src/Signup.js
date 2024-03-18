@@ -18,12 +18,12 @@ const Signup = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gray-100">
+    <div className="min-h-screen flex justify-center items-center  bg-black">
       <div className="bg-white p-8 rounded shadow-md">
         <h2 className="text-2xl mb-4">Signup page </h2>
         <form onSubmit={handleSubmit}>
-          <div className="mb-4">
-            <label className="block text-gray-700">Email.</label>
+          <div className="mb-4 rounded-md shadow-sm -space-y-px">
+            <label className="block text-gray-700 placeholder:enter@Email">Email:</label>
             <input
               className="form-input mt-1 block w-full"
               type="email"
@@ -32,7 +32,7 @@ const Signup = () => {
               required
             />
           </div>
-          <div className="mb-4">
+          <div className="mb-4 rounded-md shadow-sm -space-y-px">
             <label className="block text-gray-700">Password:</label>
             <input
               className="form-input mt-1 block w-full"
@@ -42,7 +42,7 @@ const Signup = () => {
               required
             />
           </div>
-          <div className="mb-4">
+          <div className="mb-4 rounded-md shadow-sm -space-y-px">
             <label className="block text-gray-700">Confirm Password:</label>
             <input
               className="form-input mt-1 block w-full"
